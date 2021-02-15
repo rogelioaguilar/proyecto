@@ -1,0 +1,3 @@
+Se necesita realizar un programa donde se pueda ingresar los seguros de cada persona, ya que actualmente no se están realizando de forma digital y esto hace que se pierdan clientes.
+Los valores a considerar para poder cambiar el valor de la cotización son:
+Las edades del asegurado, si esta casado la edad del cónyuge afecta al valor y si tiene hijos, la cantidad de hijos cambia el valor del total del seguro.

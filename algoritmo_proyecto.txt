@@ -1,0 +1,67 @@
+-	Algoritmo 
+1.	Solicitar nombre
+2.	Guardarlo con el nombre de la variable Nombre.
+3.	Solicitar la edad.
+4.	Guardarlo como edad
+5.	Si la edad es menor a 18 se finaliza el programa
+6.	Si es mayor a 18 continua el programa.
+7.	Se pregunta si es casado
+8.	Si no es casado realiza otra pregunta
+9.	Si es casado pide la edad del cónyuge 
+10.	Y lo guarda como edad_conyuge
+11.	Luego pregunta si tiene hijos
+12.	Si no tiene hijos realiza las operaciones
+13.	Si tiene hijos pide la cantidad de hijos
+14.	Lo guarda como cantidad_hijos
+15.	Se tiene el precio base de la cotización
+16.	Se guarda como precio_base
+17.	Luego realiza las operaciones
+18.	Si la edad del asegurado es mayor o igual  de 18 y menor que 25
+19.	Se calcula un 10% sobre el precio base
+20.	Realiza la operación precio_base *edad
+21.	Lo guarda como recargo1
+22.	Si la edad del asegurado es mayor de o igual de  25 y menor que 50
+23.	Se calcula un 20% sobre el precio base
+24.	Realiza la operación precio_base *edad
+25.	Lo guarda como recargo1
+26.	Si la edad del asegurado  es mayor o igual a 50
+27.	Se calcula un 30% sobre el precio base
+28.	Realiza la operación precio_base *edad
+29.	Lo guarda como recargo1
+30.	Si la edad del cónyuge  es mayor o igual  de 18 y menor que 25
+31.	Se calcula un 10% sobre el precio base
+32.	Realiza la operación precio_base *edad_conyuge
+33.	Lo guarda como recargo2
+34.	Si la edad del cónyuge es mayor de o igual de  25 y menor que 50
+35.	Se calcula un 20% sobre el precio base
+36.	Realiza la operación precio_base *edad_conyuge
+37.	Lo guarda como recargo2
+38.	Si la edad del conyuge  es mayor o igual a 50
+39.	Se calcula un 30% sobre el precio base
+40.	Realiza la operación precio_base *edad_conyuge
+41.	Lo guarda como recargo2
+42.	Si la cantidad de hijos es mayor a 0 
+43.	Se calcula 20% sobre el precio base por cada hijo o por la cantidad de hijos
+44.	Realiza la operación de precio_base *cantidad_hijos
+45.	Lo guarda como recargo3
+46.	Se crea variable total_recargos
+47.	Suma todos los recargos
+48.	Realiza la operación total_recargos=recargo1+recargo2+recargo3
+49.	Se crea  variable de total_precio
+50.	Suma todos los recargos y precio base
+51.	Realiza la siguiente operación total_precio=total_recargos+precio_base
+52.	Ya que tiene todos los cálculos
+53.	Muestra en pantalla
+54.	Nombre del asegurado =nombre
+55.	Muestra el recargo del asegurado
+56.	Muestra recargo1
+57.	Si tiene cónyuge 
+58.	Muestra recargo de acuerdo a la edad del cónyuge
+59.	Muestra recargo2
+60.	Si tiene hijos
+61.	Muestra el recargo de acuerdo a la cantidad de hijos
+62.	Muestra recargo3
+63.	Muestra total de recargos
+64.	Muestra total_recargos
+65.	Muestra total del seguro
+66.	Muestra total_precio
